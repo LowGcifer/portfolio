@@ -6,6 +6,8 @@
 body {
   display: flex;
   margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 header {
   background-color: rgb(139, 13, 13);
@@ -26,4 +28,28 @@ nav a {
   font-size: 25px;
   text-align: center;
   padding: 10px 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.aboutparagraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  width: 600px;
 }
