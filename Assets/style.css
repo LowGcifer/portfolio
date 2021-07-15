@@ -45,7 +45,9 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
   width: 300px;
-  font-size: 36px;
+  font-size: 48px;
+  margin-right: 40px;
+  margin-left: 100px;
   border-right: 10px blue;
   height: 300px;
 }
@@ -55,7 +57,38 @@ nav a {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  width: 1000px;
+  font-size: 25px;
+}
+
+.work {
+  display: flex;
+  background-color: lemonchiffon;
+}
+
+.workhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 40px;
+  font-size: 36px;
+  border-right: 10px blue;
+  height: 300px;
+}
+
+.workparagraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
   width: 600px;
+  font-size: 20px;
   background-color: green;
 }
 
@@ -63,5 +96,39 @@ nav a {
   nav {
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 664px) and (min-width: 376px) {
+  nav a {
+    justify-content: center;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1122px) {
+  .abouthead {
+    margin: 0;
+  }
+
+  .workhead {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutparagraph {
+    width: auto;
   }
 }
