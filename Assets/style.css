@@ -134,11 +134,13 @@ nav a {
 @media screen and (max-width: 1122px) {
   .abouthead {
     border-right: none;
-    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .workhead {
-    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
     border-right: none;
   }
 }
@@ -162,5 +164,11 @@ nav a {
 
   #comingsoon1:hover {
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #comingsoon1 {
+    max-width: 100%;
   }
 }
