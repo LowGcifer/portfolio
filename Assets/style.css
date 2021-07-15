@@ -75,7 +75,7 @@ nav a {
   width: 300px;
   margin-left: 100px;
   margin-right: 240px;
-  font-size: 36px;
+  font-size: 48px;
   border-right: blue solid 2px;
   height: 300px;
 }
@@ -105,6 +105,11 @@ nav a {
 .contact {
   font-size: 20px;
 }
+
+.contact a {
+  color: white;
+}
+
 @media screen and (max-width: 376px) {
   nav {
     flex-direction: column;
@@ -142,6 +147,14 @@ nav a {
   }
 
   .aboutparagraph {
+    width: auto;
+  }
+
+  .work {
+    flex-direction: column;
+  }
+
+  .workparagraph {
     width: auto;
   }
 }
