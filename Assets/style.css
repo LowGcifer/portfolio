@@ -1,5 +1,4 @@
 * {
-  border: red solid 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +25,6 @@ nav a {
   display: flex;
   justify-content: right;
   color: white;
-  background-color: black;
   margin: 0;
   font-size: 25px;
   text-align: center;
@@ -48,7 +46,7 @@ nav a {
   font-size: 48px;
   margin-right: 40px;
   margin-left: 100px;
-  border-right: 10px blue;
+  border-right: blue solid 2px;
   height: 300px;
 }
 
@@ -78,7 +76,7 @@ nav a {
   margin-left: 100px;
   margin-right: 240px;
   font-size: 36px;
-  border-right: 10px blue;
+  border-right: blue solid 2px;
   height: 300px;
 }
 
@@ -102,6 +100,10 @@ nav a {
 
 #comingsoon1:hover {
   transform: scale(1.1);
+}
+
+.contact {
+  font-size: 20px;
 }
 @media screen and (max-width: 376px) {
   nav {
